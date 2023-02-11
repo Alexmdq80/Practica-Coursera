@@ -4,9 +4,9 @@
 /********** Base styles **********/
 * {
 
-/* no sé por qué modificar este valor no genera ningún efecto */
-/*  font-family: Helvetica, sans-serif;
-  font-size: 580px;
+/* no sé por qué modificar aquí este valor no genera ningún efecto */
+/*  font-family: Comic Sans MS, cursive;
+  font-size: 20px;
 */
   margin: 0px 0px 0px 0px;
   padding: 0px 0px 0px 0px;
@@ -25,9 +25,9 @@ body {
   font-family: Comic Sans MS, cursive;
   font-size: 20px;
 
-  margin: 0px;
+/*  margin: 0px;
   padding: 0px;
-  border: 0px;
+  border: 0px;*/
 }
 p {
   width: 95%;
@@ -39,9 +39,9 @@ p {
 }
 
 .row {
-  margin: 0px;
+/*  margin: 0px;
   padding: 0px;
-  width: 100%;
+*/  width: 100%;
 }
 
 .caja {
@@ -55,69 +55,21 @@ p {
 
 /********** Dispositivos grandes **********/
 @media (min-width: 1200px) {
-  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+  .col-lg-4 {
     float: left;
-  }
-  .col-lg-1 {
-    width: 8.33%;
-  }
-  .col-lg-2 {
-    width: 16.66%;
-  }
-  .col-lg-3 {
-    width: 25%;
   }
   .col-lg-4 {
 /* tendría que ser 33.33% pero apila las cajas con ese valor */
     width: 31.00%;
-  }
-  .col-lg-5 {
-    width: 41.66%;
-  }
-  .col-lg-6 {
-    width: 50%;
-  }
-  .col-lg-7 {
-    width: 58.33%;
-  }
-  .col-lg-8 {
-    width: 66.66%;
-  }
-  .col-lg-9 {
-    width: 74.99%;
-  }
-  .col-lg-10 {
-    width: 83.33%;
-  }
-  .col-lg-11 {
-    width: 91.66%;
-  }
-  .col-lg-12 {
-    width: 100%;
   }
 
 }
 
 /********** Medium devices only **********/
 @media (min-width: 992px) and (max-width: 1199px) {
-  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+  .col-md-6, .col-md-12 {
     float: left;
   
-  }
-  .col-md-1 {
-    width: 8.33%;
-  }
-  .col-md-2 {
-    width: 16.66%;
-  }
-  .col-md-3 {
-    width: 25%;
-  }
-  .col-md-4 {
-    width: 33.33%;
-  }
-  .col-md-5 {
-    width: 41.66%;
   }
   .col-md-6 {
 /* debería ser 50%, pero tuve que poner un 46% porque sino 
@@ -125,21 +77,6 @@ p {
    ubicados en la misma línea. Por alguna razón las cajas quedaban
    de mayor tamaño */
     width: 46%;
-  }
-  .col-md-7 {
-    width: 58.33%;
-  }
-  .col-md-8 {
-    width: 66.66%;
-  }
-  .col-md-9 {
-    width: 74.99%;
-  }
-  .col-md-10 {
-    width: 83.33%;
-  }
-  .col-md-11 {
-    width: 91.66%;
   }
   .col-md-12 {
 /*si pongo el 100% no me coincide con .col-md-6 */
@@ -154,8 +91,7 @@ p {
 
 
 section > h1 {
-/*   margin: -1px -1px 0px 250px;*/
-   margin: -1px -1px 0px auto;
+   margin: -2px -2px 0px auto;
    width: 200px;
    text-align: center;
    border: 2px solid black;
