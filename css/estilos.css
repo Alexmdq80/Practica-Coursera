@@ -77,11 +77,11 @@ p {
    no funcionaba como yo quería. Los dejaba apilado en vez de 
    ubicados en la misma línea. Por alguna razón las cajas quedaban
    de mayor tamaño */
-    width: 46%;
+    width: calc(50% - 20px);
   }
   .col-md-12 {
-/*si pongo el 100% no me coincide con .col-md-6 */
-    width: 94%;
+/*si pongo el 100% no me coincide con .col-md-6  */
+    width: calc(100% - 20px);
   }
 
 }
