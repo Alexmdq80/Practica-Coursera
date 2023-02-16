@@ -49,6 +49,7 @@ p {
   border: 3px solid black;
   background-color: gray;
   padding: 0px 0px 0px 0px;
+  box-sizing: border-box;
 
 }
 
@@ -60,7 +61,7 @@ p {
   }
   .col-lg-4 {
 /* tendría que ser 33.33% pero apila las cajas con ese valor */
-    width: (33.33% - 20px);
+    width: calc(33.33% - 20px);
   }
 
 }
